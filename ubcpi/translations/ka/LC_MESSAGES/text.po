@@ -1,4 +1,4 @@
-# 
+#
 # Translators:
 # Lasha Kokilashvili, 2018-2019
 # Simon Janashia <sjanashia@aat.ge>, 2018
@@ -6,30 +6,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubcpi-xblock\n"
 "POT-Creation-Date: 2026-02-16 00:00+0000\n"
-"PO-Revision-Date: 2026-02-16 00:00+0000\n"
-"Last-Translator: Lasha Kokilashvili\n"
+"PO-Revision-Date: 2026-04-11 17:59+0400\n"
+"Last-Translator: Lasha Kokilashvili <lasha.kokilashvili@gmail.com>\n"
 "Language-Team: Georgian\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ka\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
 
 #: ubcpi/static/html/ubcpi_edit.html:127
-msgid ""
-"\"Simple\" means examples for different answer possibilities are "
-"intentionally selected when students are viewing peer answers.<br>\"Random\""
-" means examples are selected at random and may not include different answer "
-"possibilities."
+msgid "\"Simple\" means examples for different answer possibilities are intentionally selected when students are viewing peer answers.<br>\"Random\" means examples are selected at random and may not include different answer possibilities."
 msgstr "\"მარტივი\" ნიშნავს, რომ სხვადასხვა პასუხების შესაძლო ვარიანტების მაგალითები განზრახ არიან შერჩეული, როდესაც მოსწავლეები მიმოიხილავენ თანაკურსელების პასუხებს.<br>\"შემთხვევით\" ნიშნავს, რომ მაგალითები შემთხვევით არიან შერჩეული და შეიძლება არ შეიცავდეს განსხვავებულ პასუხებს."
 
 #: ubcpi/static/html/ubcpi.html:9
 msgid "&nbsp;({{weight}} point possible)"
-msgstr ""
+msgstr "&nbsp;(შესაძლებელია {{weight}} წერტილი)"
 
 #: ubcpi/static/html/ubcpi.html:10
 msgid "&nbsp;({{weight}} points possible)"
-msgstr ""
+msgstr "&nbsp;(შესაძლებელია {{weight}} ქულა)"
 
 #: ubcpi/static/html/ubcpi.html:196
 msgid "(Option {{rc.answer_original + 1}})"
@@ -39,8 +36,7 @@ msgstr "(ვარიანტები {{rc.answer_original + 1}})"
 msgid "(Option {{rc.answer_revised + 1}})"
 msgstr "(ვარიანტები {{rc.answer_revised + 1}})"
 
-#: ubcpi/static/html/ubcpi.html:237 ubcpi/static/html/ubcpi.html:86
-#: ubcpi/static/js/partials/ubcpi-answer-result.html:8
+#: ubcpi/static/html/ubcpi.html:237 ubcpi/static/html/ubcpi.html:86 ubcpi/static/js/partials/ubcpi-answer-result.html:8
 msgid "(You chose this option)"
 msgstr "(თქვენს მიერ ადრე არჩეული პასუხი)"
 
@@ -50,24 +46,21 @@ msgstr "(სწორი)"
 
 #: ubcpi/static/html/ubcpi.html:144
 msgid "({{weight}} point possible)"
-msgstr ""
+msgstr "({{weight}} წერტილი შესაძლებელია)"
 
 #: ubcpi/static/html/ubcpi.html:146
 msgid "({{weight}} points possible)"
-msgstr ""
+msgstr "(შესაძლებელია {{weight}} ქულა)"
 
-#: ubcpi/static/html/ubcpi.html:161 ubcpi/static/html/ubcpi.html:163
-#: ubcpi/static/html/ubcpi.html:25
+#: ubcpi/static/html/ubcpi.html:161 ubcpi/static/html/ubcpi.html:163 ubcpi/static/html/ubcpi.html:25
 msgid ", Completed"
 msgstr ", დასრულებული"
 
-#: ubcpi/static/html/ubcpi.html:165 ubcpi/static/html/ubcpi.html:27
-#: ubcpi/static/html/ubcpi.html:58
+#: ubcpi/static/html/ubcpi.html:165 ubcpi/static/html/ubcpi.html:27 ubcpi/static/html/ubcpi.html:58
 msgid ", In Progress"
 msgstr ", პროგრესში"
 
-#: ubcpi/static/html/ubcpi.html:29 ubcpi/static/html/ubcpi.html:60
-#: ubcpi/static/html/ubcpi.html:62
+#: ubcpi/static/html/ubcpi.html:29 ubcpi/static/html/ubcpi.html:60 ubcpi/static/html/ubcpi.html:62
 msgid ", Upcoming"
 msgstr ", მომავალი"
 
@@ -80,27 +73,18 @@ msgid "Add New Example"
 msgstr "ახალი მაგალითის დამატება"
 
 #: ubcpi/static/html/ubcpi_edit.html:145
-msgid ""
-"Add example answers to the answer pool for this question. Students most "
-"likely to see these answers are those completing the assignment first, when "
-"the answer pool is small."
+msgid "Add example answers to the answer pool for this question. Students most likely to see these answers are those completing the assignment first, when the answer pool is small."
 msgstr "ამ კითხვაზე პასუხების ვარიანტების სიას დაამატეთ თქვენი პასუხების ნიმუშები. როდესაც პასუხების სია მცირე არის, სტუდენტები დავალების შესრულებისას სავარაუდოდ, პირველ რიგში ამ პასუხებს ნახავენ."
 
 #: ubcpi/static/html/ubcpi_edit.html:81
-msgid ""
-"Add the text for this answer. If you wish to add an image, press the button "
-"below."
+msgid "Add the text for this answer. If you wish to add an image, press the button below."
 msgstr "ტექსტის დამატება ამ პასუხზე. თუ გსურთ დაამატოთ სურათი, დააჭირეთ ღილაკს ქვემოთ."
 
 #: ubcpi/static/html/ubcpi_edit.html:91
-msgid ""
-"Alternative text - a description of the image for non-visual users. The "
-"description should provide all the information needed for someone to answer "
-"the question if the image did not load."
+msgid "Alternative text - a description of the image for non-visual users. The description should provide all the information needed for someone to answer the question if the image did not load."
 msgstr "ალტერნატიული ტექსტი - სურათის აღწერა უნდა შეიცავდეს სრულ ინფორმაციას, რომელიც საჭირო არის კითხვაზე პასუხის გასაცემად, იმ შემთხვევაში, თუ გამოსახულება არ ჩაიტვირთა."
 
-#: ubcpi/static/html/ubcpi.html:161 ubcpi/static/html/ubcpi.html:25
-#: ubcpi/static/html/ubcpi.html:58
+#: ubcpi/static/html/ubcpi.html:161 ubcpi/static/html/ubcpi.html:25 ubcpi/static/html/ubcpi.html:58
 msgid "Answer"
 msgstr "პასუხი"
 
@@ -125,8 +109,7 @@ msgid "Cancel"
 msgstr "გაუქმება"
 
 #: ubcpi/static/html/ubcpi_edit.html:89
-msgid ""
-"Choose if you want the image to appear above or below the question text."
+msgid "Choose if you want the image to appear above or below the question text."
 msgstr "აირჩიეთ როგორ უნდა გამოჩნდეს სურათი, შეკითხვის ტექსტის ზემოთ თუ ქვემოთ."
 
 #: ubcpi/static/html/ubcpi_edit.html:44
@@ -134,9 +117,7 @@ msgid "Choose if you want the image to appear above or below the question."
 msgstr "აირჩიეთ როგორ უნდა გამოჩნდეს სურათი, შეკითხვის ზემოთ თუ ქვემოთ."
 
 #: ubcpi/static/html/ubcpi_edit.html:109
-msgid ""
-"Choose the answer you consider correct, or select \"n/a\" if there is no "
-"correct answer."
+msgid "Choose the answer you consider correct, or select \"n/a\" if there is no correct answer."
 msgstr "აირჩიეთ პასუხი, რომელსაც თქვენ თვლით, რომ სწორია ან აირჩიეთ \"n/a\" თუ ჩამონათვალში სწორი პასუხი არ არის."
 
 #: ubcpi/static/html/ubcpi_edit.html:152
@@ -160,9 +141,7 @@ msgid "Correct Option"
 msgstr "სწორი არჩევანი"
 
 #: ubcpi/static/html/ubcpi_edit.html:28
-msgid ""
-"Defines the number of points each problem is worth. If the value is not set,"
-" the problem is worth the sum of the option point values."
+msgid "Defines the number of points each problem is worth. If the value is not set, the problem is worth the sum of the option point values."
 msgstr "განსაზღვრავს, თუ რამდენი ქულით ფასდება თითოეული პრობლემა. თუ რიცხვითი მნიშვნელობა არ არის მითითებული, მაშინ პრობლემა ფასდება ვარიანტების ქულების ჯამით."
 
 #: ubcpi/static/html/ubcpi_edit.html:18
@@ -199,7 +178,7 @@ msgstr "პასუხების ნიმუშები <font color=\"red\"
 
 #: ubcpi/static/html/ubcpi.html:93
 msgid "Explain to other students why you chose this answer (Required):"
-msgstr "აუხსენით თქვენს თანაკურსელებს, თუ რატომ აირჩიეთ ეს პასუხი. (ახსნა  სავალდებულოა)."
+msgstr "აუხსენით თქვენს თანაკურსელებს, თუ რატომ აირჩიეთ ეს პასუხი (ახსნა  სავალდებულოა):"
 
 #: ubcpi/static/html/ubcpi_edit.html:157
 msgid "Explanation"
@@ -219,27 +198,18 @@ msgstr "საბოლოო პასუხების არჩევა"
 
 #: ubcpi/static/js/src/ubcpi.js:184
 msgid "Final Answer Selection:"
-msgstr "საბოლოო პასუხის არჩევა"
+msgstr "საბოლოო პასუხის არჩევა:"
 
 #: ubcpi/static/html/ubcpi_edit.html:12
 msgid ""
-"First, the learner answers a multiple choice question and provides an "
-"explanation for the answer. Next, the learner sees answers and explanations "
-"submitted by other learners. After reflecting on these peer responses, the "
-"learner can make revisions and submit a final answer and explanation. "
-"Finally, the learner sees the correct answer, if supplied, and any "
-"explanation that you provided for it."
-msgstr "დასაწყისში, სტუდენტი პასუხობს მრავალპასუხიან კითხვას და ხსნის/ასაბუთებს საკუთარ პასუხს. "
-"შემდეგ, სტუდენტი ხედავს თანაკურსელთა მიერ წარდგენილ პასუხებსა და შესაბამის ახსნა-განმარტებებს. "
-"ამ პასუხების ანალიზის შემდეგ, სტუდენტს შეუძლია საკუთარ პასუხში შეიტანოს კორექტირება და წარადგინოს "
-"პასუხისა და ახსნა-განმარტების საბოლოო ვერსია. და ბოლოს, სტუდენტი იხილავს სწორ პასუხსა და "
-"შესაბამის ახსნა-განმარტებას, იმ შემთხვევაში, თუ მათ თქვენ, დავალების შემქმნელი მიაწვდით "
-"ანუ, თუ წინასწარ დაურთავთ მათ თქვენ დავალებას."
+"First, the learner answers a multiple choice question and provides an explanation for the answer. Next, the learner sees answers and explanations submitted by other learners. After reflecting on these peer responses, the learner can make revisions and submit a final answer and "
+"explanation. Finally, the learner sees the correct answer, if supplied, and any explanation that you provided for it."
+msgstr ""
+"დასაწყისში, სტუდენტი პასუხობს მრავალპასუხიან კითხვას და ხსნის/ასაბუთებს საკუთარ პასუხს. შემდეგ, სტუდენტი ხედავს თანაკურსელთა მიერ წარდგენილ პასუხებსა და შესაბამის ახსნა-განმარტებებს. ამ პასუხების ანალიზის შემდეგ, სტუდენტს შეუძლია საკუთარ პასუხში შეიტანოს კორექტირება და წარადგინოს "
+"პასუხისა და ახსნა-განმარტების საბოლოო ვერსია. და ბოლოს, სტუდენტი იხილავს სწორ პასუხსა და შესაბამის ახსნა-განმარტებას, იმ შემთხვევაში, თუ მათ თქვენ, დავალების შემქმნელი მიაწვდით ანუ, თუ წინასწარ დაურთავთ მათ თქვენ დავალებას."
 
 #: ubcpi/static/html/ubcpi.html:111
-msgid ""
-"In order to move to the next step please briefly explain why you chose this "
-"answer."
+msgid "In order to move to the next step please briefly explain why you chose this answer."
 msgstr "შემდეგი ნაბიჯზე გადასვლამდე, გთხოვთ, ახსნათ, რატომ აირჩია ეს პასუხი."
 
 #: ubcpi/static/html/ubcpi.html:112
@@ -247,15 +217,11 @@ msgid "In order to move to the next step please choose an answer."
 msgstr "შემდეგი ნაბიჯზე გადასვლამდე, გთხოვთ, აირჩიეთ თქვენი პასუხი."
 
 #: ubcpi/static/html/ubcpi.html:113
-msgid ""
-"In order to move to the next step, please choose an answer and briefly "
-"explain your choice."
+msgid "In order to move to the next step, please choose an answer and briefly explain your choice."
 msgstr "შემდეგ ნაბიჯზე გადასასვლელად, გთხოვთ აირჩიოთ პასუხი და ახსნათ თქვენი არჩევანი."
 
 #: ubcpi/static/html/ubcpi.html:100
-msgid ""
-"In the next step, you will be shown a selection of other responses that may "
-"help you refine your answer."
+msgid "In the next step, you will be shown a selection of other responses that may help you refine your answer."
 msgstr "შემდეგ ნაბიჯზე თქვენ იხილავთ სხვა მონაწილეთა პასუხებს, რაც  შეიძლება დაგემხაროთ თქვენი პასუხის დახვეწაში."
 
 #: ubcpi/static/html/ubcpi.html:250
@@ -304,21 +270,17 @@ msgstr "ურთიერთსწავლებa"
 
 #: ubcpi/static/html/ubcpi_edit.html:11
 msgid ""
-"Peer instruction problems give learners more interactive engagement while "
-"they complete a multiple choice question that may or may not have a correct "
-"answer. The tool supports deeper consideration of the learner’s "
-"understanding of a concept and the correctness (if applicable) of an initial"
-" answer. Learners complete these problems in three steps."
+"Peer instruction problems give learners more interactive engagement while they complete a multiple choice question that may or may not have a correct answer. The tool supports deeper consideration of the learner’s understanding of a concept and the correctness (if applicable) of "
+"an initial answer. Learners complete these problems in three steps."
 msgstr ""
+"თანატოლების ინსტრუქციის პრობლემები მოსწავლეებს უფრო მეტ ინტერაქტიულ ჩართულობას აძლევს, სანამ ისინი ასრულებენ მრავალჯერადი არჩევანის კითხვას, რომელსაც შეიძლება ჰქონდეს ან არ ჰქონდეს სწორი პასუხი. ინსტრუმენტი მხარს უჭერს მოსწავლის მიერ კონცეფციის გაგების უფრო ღრმა განხილვას და "
+"საწყისი პასუხის სისწორეს (ასეთის არსებობის შემთხვევაში). მოსწავლეები ასრულებენ ამ ამოცანებს სამ ეტაპად."
 
 #: ubcpi/static/html/ubcpi.html:96
-msgid ""
-"Please edit your explanation so that it is less than {{rationale_size.max}} "
-"characters."
-msgstr ""
+msgid "Please edit your explanation so that it is less than {{rationale_size.max}} characters."
+msgstr "გთხოვთ, შეცვალოთ თქვენი ახსნა ისე, რომ ის იყოს {{rationale_size.max}} სიმბოლოზე ნაკლები."
 
-#: ubcpi/static/js/src/ubcpi.js:161 ubcpi/static/js/src/ubcpi.js:176
-#: ubcpi/static/js/src/ubcpi.js:216
+#: ubcpi/static/js/src/ubcpi.js:161 ubcpi/static/js/src/ubcpi.js:176 ubcpi/static/js/src/ubcpi.js:216
 msgid "Please refresh the page and try again!"
 msgstr "გთხოვთ, განაახლოთ გვერდი და შემდეგ ისევ სცადოთ!"
 
@@ -331,11 +293,8 @@ msgid "Problem Weight"
 msgstr "პრობლემის წონა"
 
 #: ubcpi/static/html/ubcpi_edit.html:46
-msgid ""
-"Provide alternative text - a description of the image for non-visual users. "
-"The description should provide all the information needed for someone to "
-"answer the question if the image did not load."
-msgstr ""
+msgid "Provide alternative text - a description of the image for non-visual users. The description should provide all the information needed for someone to answer the question if the image did not load."
+msgstr "მიაწოდეთ ალტერნატიული ტექსტი - სურათის აღწერა არავიზუალური მომხმარებლებისთვის. აღწერილობაში უნდა იყოს ყველა ინფორმაცია, რომელიც საჭიროა იმისთვის, რომ ვინმემ უპასუხოს კითხვას, თუ სურათი არ ჩაიტვირთა."
 
 #: ubcpi/static/html/ubcpi_edit.html:158
 msgid "Provide an explanation for this answer."
@@ -349,8 +308,7 @@ msgstr "შეკითხვა"
 msgid "Question Text <font color=\"red\">*</font>"
 msgstr "შეკითხვის ტექსტი <font color=\"red\">*</font>"
 
-#: ubcpi/static/html/ubcpi.html:163 ubcpi/static/html/ubcpi.html:27
-#: ubcpi/static/html/ubcpi.html:60
+#: ubcpi/static/html/ubcpi.html:163 ubcpi/static/html/ubcpi.html:27 ubcpi/static/html/ubcpi.html:60
 msgid "Reflection"
 msgstr "რეფლექსია"
 
@@ -358,8 +316,7 @@ msgstr "რეფლექსია"
 msgid "Remove"
 msgstr "წაშლა"
 
-#: ubcpi/static/html/ubcpi.html:165 ubcpi/static/html/ubcpi.html:29
-#: ubcpi/static/html/ubcpi.html:62
+#: ubcpi/static/html/ubcpi.html:165 ubcpi/static/html/ubcpi.html:29 ubcpi/static/html/ubcpi.html:62
 msgid "Results"
 msgstr "შედეგები"
 
@@ -376,9 +333,7 @@ msgid "See how your classmates answered <a href=\"#classbreakdown\">below</a>"
 msgstr "თქვენი თანაკურსელების პასუხები მიმოიხილეთ <a href=\"#classbreakdown\">ქვემოთ</a>"
 
 #: ubcpi/static/html/ubcpi.html:71
-msgid ""
-"Step 1) Your Initial Answer <span class=\"inline-hint\">You can change this "
-"answer later, if you change your mind.</span>"
+msgid "Step 1) Your Initial Answer <span class=\"inline-hint\">You can change this answer later, if you change your mind.</span>"
 msgstr "ნაბიჯი 1) თქვენი საწყისი პასუხი <span class=\"inline-hint\">თქვენ შეგიძლიათ მოგვიანებით ამ პასუხის შეცვლა.</span>"
 
 #: ubcpi/static/html/ubcpi.html:36
@@ -386,17 +341,14 @@ msgid "Step 2) Read Other Students Answers"
 msgstr "ნაბიჯი 2) იხილეთ სხვა მოსწავლეების პასუხები"
 
 #: ubcpi/static/html/ubcpi.html:72
-msgid ""
-"Step 3) Your Final Answer <span class=\"inline-hint\">You now have the "
-"option to change your initial selection and explanation, if you wish.</span>"
+msgid "Step 3) Your Final Answer <span class=\"inline-hint\">You now have the option to change your initial selection and explanation, if you wish.</span>"
 msgstr "ნაბიჯი 3) თქვენი საბოლოო პასუხი <span class=\"inline-hint\">თქვენ ახლა შეგიძლიათ თქვენი საწყისი პასუხის შეცვლა, თუ სურვილი გექნებათ.</span>"
 
 #: ubcpi/static/html/ubcpi.html:43
 msgid "Student Answer: {{options[answer.option].text}}"
 msgstr "მოსწავლის პასუხი: {{options[answer.option].text}}"
 
-#: ubcpi/static/html/ubcpi.html:198 ubcpi/static/html/ubcpi.html:208
-#: ubcpi/static/html/ubcpi.html:46
+#: ubcpi/static/html/ubcpi.html:198 ubcpi/static/html/ubcpi.html:208 ubcpi/static/html/ubcpi.html:46
 msgid "Student Rationale"
 msgstr "მოსწავლის დასაბუთება"
 
@@ -410,66 +362,47 @@ msgstr "იგზავნება"
 
 #: ubcpi/static/html/ubcpi_edit.html:75
 msgid ""
-"The answers appear as choices underneath the question, with a maximum of 10 "
-"allowed per question. Each answer may contain text, an image, or a "
-"combination of both. <br><br>To add another answer press the \"Add New "
-"Answer\" button. To remove an answer press the blue \"x\" next to the blue "
-"option you want to remove."
+"The answers appear as choices underneath the question, with a maximum of 10 allowed per question. Each answer may contain text, an image, or a combination of both. <br><br>To add another answer press the \"Add New Answer\" button. To remove an answer press the blue \"x\" next to "
+"the blue option you want to remove."
 msgstr ""
+"პასუხები ჩნდება კითხვის ქვეშ არჩევანის სახით, თითო კითხვაზე დასაშვებია მაქსიმუმ 10. თითოეული პასუხი შეიძლება შეიცავდეს ტექსტს, სურათს ან ორივეს კომბინაციას. <br><br>სხვა პასუხის დასამატებლად დააჭირეთ ღილაკს \"ახალი პასუხის დამატება\". პასუხის წასაშლელად დააჭირეთ ლურჯ \"x\" ლურჯი "
+"ვარიანტის გვერდით, რომლის წაშლაც გსურთ."
 
 #: ubcpi/static/html/ubcpi_edit.html:37
-msgid ""
-"The question appears above the possible answers that you set below. You can "
-"use text, an image, or a combination of both. If you wish to add an image to"
-" your question, press the \"Add Image To Question\" button."
-msgstr ""
+msgid "The question appears above the possible answers that you set below. You can use text, an image, or a combination of both. If you wish to add an image to your question, press the \"Add Image To Question\" button."
+msgstr "კითხვა გამოჩნდება შესაძლო პასუხების ზემოთ, რომლებიც თქვენ დააყენეთ ქვემოთ. თქვენ შეგიძლიათ გამოიყენოთ ტექსტი, სურათი ან ორივეს კომბინაცია. თუ გსურთ სურათის დამატება თქვენს კითხვაზე, დააჭირეთ ღილაკს \"სურათის დამატება კითხვაზე\"."
 
 #: ubcpi/static/html/ubcpi.html:37
-msgid ""
-"These are samples of other student answers for this question. Read them and "
-"then compare with your answer below."
-msgstr ""
+msgid "These are samples of other student answers for this question. Read them and then compare with your answer below."
+msgstr "ეს არის სხვა სტუდენტების პასუხების ნიმუშები ამ კითხვაზე. წაიკითხეთ ისინი და შემდეგ შეადარეთ ქვემოთ მოცემულ პასუხს."
 
 #: ubcpi/static/html/ubcpi.html:222
-msgid ""
-"This is a look at how your classmates answered the question during the "
-"initial and final rounds."
-msgstr ""
+msgid "This is a look at how your classmates answered the question during the initial and final rounds."
+msgstr "ეს არის იმის მიმოხილვა, თუ როგორ უპასუხეს თქვენმა თანაკლასელებმა კითხვას საწყისი და ბოლო რაუნდების დროს."
 
 #: ubcpi/static/html/ubcpi_edit.html:64
-msgid ""
-"This is the maximum number of characters the student explanations may "
-"contain."
+msgid "This is the maximum number of characters the student explanations may contain."
 msgstr "სიმბოლოების ის მაქსიმალური რაოდენობა, რომელსაც მსმენელის პასუხის ახსნა უნდა შეიცავდეს."
 
 #: ubcpi/static/html/ubcpi_edit.html:57
-msgid ""
-"This is the minimum number of characters the student explanations must "
-"contain."
+msgid "This is the minimum number of characters the student explanations must contain."
 msgstr "სიმბოლოების ის მინიმალური რაოდენობა, რომელსაც მსმენელის პასუხის ახსნა უნდა შეიცავდეს."
 
 #: ubcpi/static/html/ubcpi_edit.html:135
-msgid ""
-"This is the number of examples shown to the students after they answer. "
-"Enter the # symbol to use the same number as the answer possibilities you've"
-" set."
-msgstr ""
+msgid "This is the number of examples shown to the students after they answer. Enter the # symbol to use the same number as the answer possibilities you've set."
+msgstr "ეს არის მაგალითების რაოდენობა, რომელიც ნაჩვენებია მოსწავლეებს პასუხის გაცემის შემდეგ. შეიყვანეთ # სიმბოლო, რომ გამოიყენოთ იგივე რიცხვი, როგორც თქვენ მიერ დაყენებული პასუხის შესაძლებლობები."
 
 #: ubcpi/static/html/ubcpi_edit.html:19
 msgid "This name appears in the horizontal navigation at the top of the page."
 msgstr "ეს სახელწოდება გვერდის ზემოთ ჰორიზონტალური ნავიგაციის პანელში გამოჩნდება."
 
 #: ubcpi/static/html/ubcpi_edit.html:42
-msgid ""
-"Upload a file first using Content > Files &amp; Uploads. Then copy the "
-"'Studio URL'. Paste that into the text field here."
-msgstr ""
+msgid "Upload a file first using Content > Files &amp; Uploads. Then copy the 'Studio URL'. Paste that into the text field here."
+msgstr "ჯერ ატვირთეთ ფაილი Content > Files &amp; Uploads-ის გამოყენებით. შემდეგ დააკოპირეთ \"სტუდიის URL\". ჩასვით ეს ტექსტის ველში აქ."
 
 #: ubcpi/static/html/ubcpi_edit.html:87
-msgid ""
-"Upload a file using Content > Files &amp; Uploads. Then copy the 'Studio "
-"URL'. Paste that into the text field above."
-msgstr ""
+msgid "Upload a file using Content > Files &amp; Uploads. Then copy the 'Studio URL'. Paste that into the text field above."
+msgstr "ატვირთეთ ფაილი Content > Files &amp; Uploads-ის გამოყენებით. შემდეგ დააკოპირეთ \"სტუდიის URL\". ჩასვით ეს ზემოთ მოცემულ ტექსტურ ველში."
 
 #: ubcpi/static/html/ubcpi.html:118
 msgid "View Question Statistics"
@@ -480,9 +413,7 @@ msgid "Warning"
 msgstr "გაფრთხილება"
 
 #: ubcpi/static/html/ubcpi.html:95
-msgid ""
-"You are approaching the limit of {{rationale_size.max}} characters for this "
-"answer. Characters left: {{rationale_size.max - rc.rationale.length}}"
+msgid "You are approaching the limit of {{rationale_size.max}} characters for this answer. Characters left: {{rationale_size.max - rc.rationale.length}}"
 msgstr "თქვენ უახლოვდებით ასოების ლიმიტს {{rationale_size.max}} ამ პასუხისთვის. დარჩენილი ასოების რაოდენობაა: {{rationale_size.max - rc.rationale.length}}"
 
 #: ubcpi/static/html/ubcpi_edit.html:182
@@ -495,7 +426,7 @@ msgstr "თქვენი საბოლოო პასუხი:"
 
 #: ubcpi/static/html/ubcpi.html:192
 msgid "Your initial answer:"
-msgstr "თქვენი თავდაპირველი პასუხი"
+msgstr "თქვენი თავდაპირველი პასუხი:"
 
 #: ubcpi/static/html/ubcpi.html:110
 msgid "Your rationale must be a maximum of {{rationale_size.max}} characters."
@@ -507,11 +438,11 @@ msgstr "თქვენი დასაბუთების ტექსტი 
 
 #: ubcpi/answer_pool.py:125
 msgid "Option "
-msgstr "ოფციები"
+msgstr "ოფციები "
 
 #: ubcpi/answer_pool.py:129
 msgid "Missing option seed(s): "
-msgstr "ვარიანტებს აკლიათ(s):"
+msgstr "ვარიანტებს აკლია(თ): "
 
 #: ubcpi/answer_pool.py:145
 msgid "Missing 1 option seed"
@@ -527,16 +458,14 @@ msgstr "ოფციას უნდა გააჩნდეს text ტიპ�
 
 #: ubcpi/serialize.py:145
 msgid "Missing rationale for correct answer."
-msgstr "სწორ პასუხს აკლია დასაბუთება. "
+msgstr "სწორ პასუხს აკლია დასაბუთება."
 
 #: ubcpi/serialize.py:147
 msgid "Only one correct answer can be defined in options."
 msgstr "შესაძლო პასუხების ვარიანტებში მხოლოდ ერთი სწორი პასუხი შეიძლება განისაზღვროს."
 
 #: ubcpi/serialize.py:152
-msgid ""
-"Correct answer and rationale are required and have to be defined in one of "
-"the option."
+msgid "Correct answer and rationale are required and have to be defined in one of the option."
 msgstr "ორივე ელემენტი, სწორი პასუხი და დასაბუთება სავალდებულო არის. ისინი უნდა განისაზღვროს ერთ-ერთ ვარიანტში."
 
 #: ubcpi/serialize.py:185
@@ -581,7 +510,7 @@ msgstr "არამთელი მნიშვნელობა"
 
 #: ubcpi/ubcpi.py:75
 msgid "Invalid Option(s): "
-msgstr "არასწორი ვარიანტ(ებ)ი"
+msgstr "არასწორი ვარიანტ(ებ)ი: "
 
 #: ubcpi/ubcpi.py:184
 msgid "Peer Instruction Question"
@@ -592,11 +521,7 @@ msgid "<p>Where does most of the mass in a fully grown tree originate?</p>"
 msgstr "<p>რა წარმოქმნის ზრდასრული ხის მასის უდიდეს ნაწილს?</p>"
 
 #: ubcpi/ubcpi.py:190
-msgid ""
-"The question the students see. This question appears above the possible "
-"answers which you set below. You can use text, an image or a combination of "
-"both. If you wish to add an image to your question, press the 'Add Image' "
-"button."
+msgid "The question the students see. This question appears above the possible answers which you set below. You can use text, an image or a combination of both. If you wish to add an image to your question, press the 'Add Image' button."
 msgstr "კითხვა, რომლესაც სტუდენტები ხედავენ. იგი გამოჩნდება შესაძლო პასუხების ზემოთ, რომელთაც თქვწნ ქვმოთ მიუთითებთ. პასუხის ფორმატისთვის შეგიძლიათ გამოიყენოთ ტექსტი, სურათი ან ორივეს კომბინაცია. თუ გსურთ თქვენს შეკითხვას დაუმატოთ სურათი, დააჭირეთ ღილაკს \"სურათის დამატება\"."
 
 #: ubcpi/ubcpi.py:197
@@ -616,9 +541,7 @@ msgid "The possible options from which the student may select"
 msgstr "პასუხების შესაძლო ვარიანტები, საიდანაც სტუდენტს შეუძლია აირჩიოს საკუთარი პასუხი"
 
 #: ubcpi/ubcpi.py:207
-msgid ""
-"The minimum and maximum number of characters a student is allowed for their "
-"rationale."
+msgid "The minimum and maximum number of characters a student is allowed for their rationale."
 msgstr "სტუდენტის დასაბუთების ტექსტში სიმბოლოების დასაშვები მინიმალური და მაქსიმალური რაოდენობა."
 
 #: ubcpi/ubcpi.py:212
@@ -631,7 +554,7 @@ msgstr "ფოტოსინთეზი"
 
 #: ubcpi/ubcpi.py:217
 msgid "The feedback for student for the correct answer"
-msgstr " სწორი პასუხის შემთხვევაში კურსის მსმენელისთვის განკუთვნილი უკუგება"
+msgstr "სწორი პასუხის შემთხვევაში კურსის მსმენელისთვის განკუთვნილი უკუგება"
 
 #: ubcpi/ubcpi.py:222
 msgid "Overall stats for the instructor"
@@ -650,8 +573,7 @@ msgid "Tree drinks water."
 msgstr "ხე სვამს წყალს."
 
 #: ubcpi/ubcpi.py:231
-msgid ""
-"Instructor configured examples to give to students during the revise stage."
+msgid "Instructor configured examples to give to students during the revise stage."
 msgstr "ინსტრუქტორის მიერ კონფიგურირებული მაგალითები, რომლებსაც სისტემა გადახედვის ნაბიჯზე წარუდგენს მსმენელებს."
 
 #: ubcpi/ubcpi.py:245
@@ -663,16 +585,12 @@ msgid "The algorithm for selecting which answers to be presented to students"
 msgstr "ალგორითმი იმ პასუხების შერჩევისთვის, რომელებსაც სისტემა წარუდგენს მსმენელბს"
 
 #: ubcpi/ubcpi.py:259
-msgid ""
-"ISO-8601 formatted string representing the start date of this assignment. We"
-" ignore this."
-msgstr ""
+msgid "ISO-8601 formatted string representing the start date of this assignment. We ignore this."
+msgstr "ISO-8601 ფორმატირებული სტრიქონი, რომელიც წარმოადგენს ამ დავალების დაწყების თარიღს. ჩვენ ამას უგულებელვყოფთ."
 
 #: ubcpi/ubcpi.py:264
-msgid ""
-"ISO-8601 formatted string representing the due date of this assignment. We "
-"ignore this."
-msgstr ""
+msgid "ISO-8601 formatted string representing the due date of this assignment. We ignore this."
+msgstr "ISO-8601 ფორმატირებული სტრიქონი, რომელიც წარმოადგენს ამ დავალების ვადას. ჩვენ ამას უგულებელვყოფთ."
 
 #: ubcpi/ubcpi.py:308
 msgid "System will select one of each option to present to the students."
@@ -689,4 +607,3 @@ msgstr "ჩანს ზემოთ"
 #: ubcpi/ubcpi.py:313
 msgid "Appears below"
 msgstr "ჩანს ქვემოთ"
-
