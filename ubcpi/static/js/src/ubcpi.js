@@ -63,7 +63,7 @@ angular.module('UBCPI', ['ngSanitize', 'ngCookies', 'gettext'])
                 scrollToTopOfBlock: '@'
             },
             link: function(scope, ele, attr, ctrl) {
-                ele.on(scope.scrollToTopOfBlock? scope.scrollToTopOfBlock : 'click', function() {
+                ele.on(scope.scrollToTopOfBlock ? scope.scrollToTopOfBlock : 'click', function() {
                     var target;
                     target = ele.parents('.ubcpi_block');
                     if (!target) {
@@ -87,7 +87,7 @@ angular.module('UBCPI', ['ngSanitize', 'ngCookies', 'gettext'])
                 scrollToProgressBar: '@'
             },
             link: function(scope, ele, attr, ctrl) {
-                ele.on(scope.scrollToProgressBar? scope.scrollToProgressBar : 'click', function() {
+                ele.on(scope.scrollToProgressBar ? scope.scrollToProgressBar : 'click', function() {
                     var target;
                     target = ele.parents('.ubcpi_block').find('.ubcpi_progress_bar');
                     if (!target) {
@@ -110,19 +110,19 @@ angular.module('UBCPI', ['ngSanitize', 'ngCookies', 'gettext'])
             },
             link: function(scope, ele, attr, ctrl) {
                 var option = attr.ubcpiOption;
-                var desc = '<span>' + gettext('Show other samples') + '</span>';
-                var desc_loading = '<span>' + gettext('Refreshing...') + '</span>';
+                var desc = '<span>სხვა ნიმუშების ჩვენება</span>';
+                var desc_loading = '<span>მიმდინარეობს განახლება...</span>';
 
                 function call_refresh() {
                     ele.empty().append('<i class="icon fa fa-refresh fa-spin" aria-hidden="true"></i> ' + desc_loading);
                     backendService.refreshOtherAnswers(option).then(function(data) {
                         if (data && data.other_answers && data.other_answers.answers) {
-                            scope.ubcpiRefreshModel = data.other_answers.answers
+                            scope.ubcpiRefreshModel = data.other_answers.answers;
                         }
                     }, function(error) {
                         notify('error', {
-                            'title': gettext('Error refreshing answers from other students'),
-                            'message': gettext('Please refresh the page and try again!')
+                            'title': 'შეცდომა სხვა სტუდენტების პასუხების განახლებისას',
+                            'message': 'გთხოვთ, განაახლოთ გვერდი და სცადოთ თავიდან!'
                         });
                     }).finally(function() {
                         ele.empty().append('<i aria-hidden="true" class="icon fa fa-refresh"></i> ' + desc);
@@ -132,7 +132,7 @@ angular.module('UBCPI', ['ngSanitize', 'ngCookies', 'gettext'])
                 ele.on('click', call_refresh);
                 ele.empty().append('<i aria-hidden="true" class="icon fa fa-refresh"></i> ' + desc);
             }
-        }
+        };
     }])
 
     .factory('backendService', ['$http', '$q', '$rootScope', function ($http, $q, $rootScope) {
@@ -151,7 +151,8 @@ angular.module('UBCPI', ['ngSanitize', 'ngCookies', 'gettext'])
                 },
                 function(error) {
                     return $q.reject(error);
-                });
+                }
+            );
         }
 
         function submit(answer, rationale, status) {
@@ -216,13 +217,11 @@ angular.module('UBCPI', ['ngSanitize', 'ngCookies', 'gettext'])
             self.ALL_STATUS = data.all_status;
 
             // Assign data based on what has been persisted
-            var persistedDataObject = get_data().then( function(persistedData) {
-
-                if ( persistedData.answer_original !== null ) {
+            var persistedDataObject = get_data().then(function(persistedData) {
+                if (persistedData.answer_original !== null) {
                     assignData(self, persistedData);
                 }
             });
-
 
             // By default, we're not submitting, this changes when someone presses the submit button
             self.submitting = false;
@@ -251,14 +250,14 @@ angular.module('UBCPI', ['ngSanitize', 'ngCookies', 'gettext'])
             };
 
             self.clickSubmit = function () {
-                notify('save', {state: 'start', message: gettext("Submitting")});
+                notify('save', {state: 'start', message: "მიმდინარეობს გაგზავნა"});
                 self.submitting = true;
                 return backendService.submit(self.answer, self.rationale, self.status()).then(function(data) {
                     assignData(self, data);
                 }, function(error) {
                     notify('error', {
-                        'title': gettext('Error submitting answer!'),
-                        'message': gettext('Please refresh the page and try again!')
+                        'title': 'შეცდომა პასუხის გაგზავნისას!',
+                        'message': 'გთხოვთ, განაახლოთ გვერდი და სცადოთ თავიდან!'
                     });
                     return $q.reject(error);
                 }).finally(function() {
@@ -274,14 +273,14 @@ angular.module('UBCPI', ['ngSanitize', 'ngCookies', 'gettext'])
                     self.perAnswerStats = {};
                     for (var i = 0; i < $scope.options.length; i++) {
                         self.perAnswerStats[i] = {
-                            'original': (typeof self.stats.original[i] !== 'undefined'? self.stats.original[i] : 0),
-                            'revised' : (typeof self.stats.revised[i] !== 'undefined'? self.stats.revised[i] : 0)
-                        }
+                            'original': (typeof self.stats.original[i] !== 'undefined' ? self.stats.original[i] : 0),
+                            'revised': (typeof self.stats.revised[i] !== 'undefined' ? self.stats.revised[i] : 0)
+                        };
                     }
                 }, function(error) {
                     notify('error', {
-                        'title': gettext('Error retrieving statistics!'),
-                        'message': gettext('Please refresh the page and try again!')
+                        'title': 'შეცდომა სტატისტიკის ამოღებისას!',
+                        'message': 'გთხოვთ, განაახლოთ გვერდი და სცადოთ თავიდან!'
                     });
                     return $q.reject(error);
                 });
@@ -292,8 +291,8 @@ angular.module('UBCPI', ['ngSanitize', 'ngCookies', 'gettext'])
                     return data;
                 }, function(error) {
                     notify('error', {
-                        'title': gettext('Error retrieving data!'),
-                        'message': gettext('Please refresh the page and try again!')
+                        'title': 'შეცდომა მონაცემთა ამოღებისას!',
+                        'message': 'გთხოვთ, განაახლოთ გვერდი და სცადოთ თავიდან!'
                     });
                     return $q.reject(error);
                 });
@@ -336,8 +335,8 @@ angular.module('UBCPI', ['ngSanitize', 'ngCookies', 'gettext'])
  * @constructor
  */
 function PeerInstructionXBlock(runtime, element, data) {
-
     "use strict";
+
     // wrap element as core.js may pass a raw element or an wrapped one
     var $element = $(element);
     // The workbench doesn't support notifications.

@@ -78,7 +78,7 @@ angular.module('UBCPI').
     class: 'ubcpibar' + (scope.correct == scope.perAnswerStats ? ' correct-answer' : '') +
         (k === 'original' ? ' original' : ''),
     label_class: 'ubcpibar label',
-    type: k === 'original' ? 'თავდაპირველად აირჩია' : 'გადახედვის შემდეგ აირჩია'
+    type: k === 'original' ? 'თავიდან აირჩია' : 'შემდეგ აირჩია'
 });
                     }
 
