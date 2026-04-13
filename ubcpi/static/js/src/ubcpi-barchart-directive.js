@@ -71,15 +71,15 @@ angular.module('UBCPI').
                             allAnswerCount = total;
                         }
                         data.push({
-                            percentage: (total > 0 && typeof stats[k][scope.perAnswerStats] !== 'undefined'?
-                                (stats[k][scope.perAnswerStats] / total) * 100 : 0),
-                            order: k === 'original'? 0 : 1,
-                            text:  (scope.answers[k] == scope.perAnswerStats? gettext('(including you) ') : ''),
-                            class: 'ubcpibar' +  (scope.correct == scope.perAnswerStats ? ' correct-answer' : '') +
-                                (k === 'original'? ' original' : ''),
-                            label_class: 'ubcpibar label',
-                            type: k === 'original'? gettext('Chose initially') : gettext('Chose after revision')
-                        });
+    percentage: (total > 0 && typeof stats[k][scope.perAnswerStats] !== 'undefined' ?
+        (stats[k][scope.perAnswerStats] / total) * 100 : 0),
+    order: k === 'original' ? 0 : 1,
+    text: (scope.answers[k] == scope.perAnswerStats ? '(თქვენს ჩათვლით) ' : ''),
+    class: 'ubcpibar' + (scope.correct == scope.perAnswerStats ? ' correct-answer' : '') +
+        (k === 'original' ? ' original' : ''),
+    label_class: 'ubcpibar label',
+    type: k === 'original' ? 'თავდაპირველად აირჩია' : 'გადახედვის შემდეგ აირჩია'
+});
                     }
 
                     d3.select(element[0]).select("svg").remove();   // remove old chart
