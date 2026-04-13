@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: Poedit 3.9\n"
 
 #: ubcpi/static/html/ubcpi_edit.html:127
-msgid "\"Simple\" means examples for different answer possibilities are intentionally selected when students are viewing peer answers.<br>\"Random\" means examples are selected at random and may not include different answer possibilities."
+msgid "\"Simple\" means examples for different answer possibilities are intentionally selected when students are viewing peer answers.<br />\"Random\" means examples are selected at random and may not include different answer possibilities."
 msgstr "\"მარტივი\" ნიშნავს, რომ სხვადასხვა პასუხების შესაძლო ვარიანტების მაგალითები განზრახ არიან შერჩეული, როდესაც მოსწავლეები მიმოიხილავენ თანაკურსელების პასუხებს.<br>\"შემთხვევით\" ნიშნავს, რომ მაგალითები შემთხვევით არიან შერჩეული და შეიძლება არ შეიცავდეს განსხვავებულ პასუხებს."
 
 #: ubcpi/static/html/ubcpi.html:9
@@ -129,8 +129,8 @@ msgid "Class Breakdown"
 msgstr "კლასის პასუხები"
 
 #: ubcpi/static/html/ubcpi.html:174
-msgid "Correct Answer"
-msgstr "სწორი პასუხი"
+msgid "Correct Answer:"
+msgstr "სწორი პასუხი:"
 
 #: ubcpi/static/html/ubcpi_edit.html:108
 msgid "Correct Answer <font color=\"red\">*</font>"
@@ -177,7 +177,7 @@ msgid "Example Answers <font color=\"red\">*</font>"
 msgstr "პასუხების ნიმუშები <font color=\"red\">*</font>"
 
 #: ubcpi/static/html/ubcpi.html:93
-msgid "Explain to other students why you chose this answer (Required):"
+msgid "Explain to other students why you chose this answer (required):"
 msgstr "აუხსენით თქვენს თანაკურსელებს, თუ რატომ აირჩიეთ ეს პასუხი (ახსნა  სავალდებულოა):"
 
 #: ubcpi/static/html/ubcpi_edit.html:157
@@ -333,12 +333,16 @@ msgid "See how your classmates answered <a href=\"#classbreakdown\">below</a>"
 msgstr "თქვენი თანაკურსელების პასუხები მიმოიხილეთ <a href=\"#classbreakdown\">ქვემოთ</a>"
 
 #: ubcpi/static/html/ubcpi.html:71
-msgid "Step 1) Your Initial Answer <span class=\"inline-hint\">You can change this answer later, if you change your mind.</span>"
+msgid "Step 1) Give Initial Answer <span class=\"inline-hint\">You can change this answer later, if you change your mind.</span>"
 msgstr "ნაბიჯი 1) თქვენი საწყისი პასუხი <span class=\"inline-hint\">თქვენ შეგიძლიათ მოგვიანებით ამ პასუხის შეცვლა.</span>"
 
 #: ubcpi/static/html/ubcpi.html:36
-msgid "Step 2) Read Other Students Answers"
+msgid "Step 2) Read Other Student Answers"
 msgstr "ნაბიჯი 2) იხილეთ სხვა მოსწავლეების პასუხები"
+
+#: ubcpi/static/html/ubcpi.html:37
+msgid "These are randomly chosen samples of other student answers for this question. Read them and compare with your answer below. Then you may revise your answer, if you wish."
+msgstr "ეს არის სხვა სტუდენტების პასუხების შემთხვევით შერჩეული ნიმუშები. გაეცანით მათ და შეადარეთ თქვენს ქვემოთ მოცემულ პასუხს. ამის შემდეგ შეგიძლიათ შეცვალოთ თქვენი პასუხი."
 
 #: ubcpi/static/html/ubcpi.html:72
 msgid "Step 3) Your Final Answer <span class=\"inline-hint\">You now have the option to change your initial selection and explanation, if you wish.</span>"
@@ -372,12 +376,8 @@ msgstr ""
 msgid "The question appears above the possible answers that you set below. You can use text, an image, or a combination of both. If you wish to add an image to your question, press the \"Add Image To Question\" button."
 msgstr "კითხვა გამოჩნდება შესაძლო პასუხების ზემოთ, რომლებიც თქვენ დააყენეთ ქვემოთ. თქვენ შეგიძლიათ გამოიყენოთ ტექსტი, სურათი ან ორივეს კომბინაცია. თუ გსურთ სურათის დამატება თქვენს კითხვაზე, დააჭირეთ ღილაკს \"სურათის დამატება კითხვაზე\"."
 
-#: ubcpi/static/html/ubcpi.html:37
-msgid "These are samples of other student answers for this question. Read them and then compare with your answer below."
-msgstr "ეს არის სხვა სტუდენტების პასუხების ნიმუშები ამ კითხვაზე. წაიკითხეთ ისინი და შემდეგ შეადარეთ ქვემოთ მოცემულ პასუხს."
-
 #: ubcpi/static/html/ubcpi.html:222
-msgid "This is a look at how your classmates answered the question during the initial and final rounds."
+msgid "This is a look at how your classmates answered the question initially and after revision."
 msgstr "ეს არის იმის მიმოხილვა, თუ როგორ უპასუხეს თქვენმა თანაკლასელებმა კითხვას საწყისი და ბოლო რაუნდების დროს."
 
 #: ubcpi/static/html/ubcpi_edit.html:64
@@ -389,7 +389,7 @@ msgid "This is the minimum number of characters the student explanations must co
 msgstr "სიმბოლოების ის მინიმალური რაოდენობა, რომელსაც მსმენელის პასუხის ახსნა უნდა შეიცავდეს."
 
 #: ubcpi/static/html/ubcpi_edit.html:135
-msgid "This is the number of examples shown to the students after they answer. Enter the # symbol to use the same number as the answer possibilities you've set."
+msgid "This is the number of examples shown on screen to the students after they answer. Students can choose to refresh for some other samples. Enter the # symbol to use the same number as the answer possibilities you've set."
 msgstr "ეს არის მაგალითების რაოდენობა, რომელიც ნაჩვენებია მოსწავლეებს პასუხის გაცემის შემდეგ. შეიყვანეთ # სიმბოლო, რომ გამოიყენოთ იგივე რიცხვი, როგორც თქვენ მიერ დაყენებული პასუხის შესაძლებლობები."
 
 #: ubcpi/static/html/ubcpi_edit.html:19
@@ -397,12 +397,12 @@ msgid "This name appears in the horizontal navigation at the top of the page."
 msgstr "ეს სახელწოდება გვერდის ზემოთ ჰორიზონტალური ნავიგაციის პანელში გამოჩნდება."
 
 #: ubcpi/static/html/ubcpi_edit.html:42
-msgid "Upload a file first using Content > Files &amp; Uploads. Then copy the 'Studio URL'. Paste that into the text field here."
-msgstr "ჯერ ატვირთეთ ფაილი Content > Files &amp; Uploads-ის გამოყენებით. შემდეგ დააკოპირეთ \"სტუდიის URL\". ჩასვით ეს ტექსტის ველში აქ."
+msgid "Upload a file first by clicking Content, then Files and Uploads. Then copy the Studio URL. Paste that into the text field here."
+msgstr "ჯერ ატვირთეთ ფაილი Content > Files & Uploads-ის გამოყენებით. შემდეგ დააკოპირეთ \"სტუდიის URL\". ჩასვით ეს ტექსტის ველში აქ."
 
 #: ubcpi/static/html/ubcpi_edit.html:87
-msgid "Upload a file using Content > Files &amp; Uploads. Then copy the 'Studio URL'. Paste that into the text field above."
-msgstr "ატვირთეთ ფაილი Content > Files &amp; Uploads-ის გამოყენებით. შემდეგ დააკოპირეთ \"სტუდიის URL\". ჩასვით ეს ზემოთ მოცემულ ტექსტურ ველში."
+msgid "Upload a file first by clicking Content, then Files and Uploads. Then copy the Studio URL. Paste that into the text field above."
+msgstr "ატვირთეთ ფაილი Content > Files & Uploads-ის გამოყენებით. შემდეგ დააკოპირეთ \"სტუდიის URL\". ჩასვით ეს ზემოთ მოცემულ ტექსტურ ველში."
 
 #: ubcpi/static/html/ubcpi.html:118
 msgid "View Question Statistics"

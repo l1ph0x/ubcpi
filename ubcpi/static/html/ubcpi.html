@@ -66,7 +66,7 @@
                                     <div data-ng-repeat="otherAnswer in rc.other_answers.answers" data-ng-if="rc.status() == rc.ALL_STATUS.ANSWERED && optionKey == otherAnswer.option">
                                         <div class="sample-answer">
                                             <span class="sr" translate>Student Rationale</span><i aria-hidden="true" class="icon fa fa-user fa-lg"></i>
-                                            <span class="other-rationale">\"{{otherAnswer.rationale}}\"</span>
+                                            <span class="other-rationale">"{{otherAnswer.rationale}}"</span>
                                         </div>
                                     </div>
                                     <div class="ubcpi-refresh-section" data-ng-if="rc.status() == rc.ALL_STATUS.ANSWERED && !rc.revising">
@@ -77,7 +77,7 @@
                                     (no student explanations were randomly selected for this answer)
                                 </div>
                                 <div data-ng-if="rc.answer == $index && (rc.status() == rc.ALL_STATUS.NEW || rc.revising)">
-                                    <label class="ubcpi-label ubcpi-explain-label" for="rationale" translate>Explain to other students why you chose this answer (Required):</label>
+                                    <label class="ubcpi-label ubcpi-explain-label" for="rationale" translate>Explain to other students why you chose this answer (required):</label>
                                     <textarea class="ubcpi-field ubcpi-rationale" id="rationale" name="rationale" data-ng-model="rc.rationale" required data-ng-minlength="{{rationale_size.min}}" data-ng-maxlength="{{rationale_size.max}}"></textarea>
                                     <p class="ubcpi-rationale-warning" data-ng-if="((rationale_size.max - rc.rationale.length) <= (rationale_size.max/10)) && (rc.rationale.length <= rationale_size.max)" translate>You are approaching the limit of {{rationale_size.max}} characters for this answer. Characters left: {{rationale_size.max - rc.rationale.length}}</p>
 
@@ -109,7 +109,7 @@
                                 <div data-ng-if="rc.answer == $index && rc.status() == rc.ALL_STATUS.ANSWERED">
                                     <div class="own-answer">
                                         <div data-ng-if="!rc.revising">
-                                            <span translate>You:</span>&nbsp;<span class="other-rationale">\"{{rc.rationale_original}}\"</span>
+                                            <span translate>You:</span>&nbsp;<span class="other-rationale">"{{rc.rationale_original}}"</span>
                                         </div>
                                         <div style="text-align: right;">
                                             <p id="decision-prompt" style="text-align: right;" data-ng-if="!rc.revising" translate>What would you like to do?</p>
@@ -135,7 +135,7 @@
                                 <label data-ng-class="{'ubcpi-show-correct ubcpi-answer': rc.correct_answer === $index, 'ubcpi-label ubcpi-answer': rc.correct_answer !== $index, 'ubcpi-no-pointer': !(rc.status() == rc.ALL_STATUS.NEW || rc.revising)}" for="original-option-input-{{ $index }}">
                                     <img data-ng-src="{{option.image_url}}" id="original-option-image-{{ $index }}" alt="{{option.image_alt}}" data-ng-if="option.image_position == 'above' && option.image_url" />
 
-                                    <span data-ng-if="rc.correct_answer === $index" translate>Correct Answer</span>
+                                    <span data-ng-if="rc.correct_answer === $index" translate>Correct Answer:</span>
                                     {{option.text}}
 
                                     <img data-ng-src="{{option.image_url}}" id="original-option-image-{{ $index }}" alt="{{option.image_alt}}" data-ng-if="option.image_position == 'below' && option.image_url" />
@@ -191,6 +191,7 @@
                     <legend>
                         <span translate>Step 3) View Course-Wide Results</span>
                         <p class="ubcpi-other-answers-instructions" translate>This is a look at how your classmates answered the question initially and after revision.</p>
+                        </span>
                     </legend>
 
                     <span data-ng-if="rc.correct_answer === options.length && rc.correct_rationale.text" class="ubcpi-correct-answer-rationale">{{rc.correct_rationale.text}}</span>
@@ -200,7 +201,7 @@
                             <label data-ng-class="{'ubcpi-show-correct ubcpi-answer': rc.correct_answer === $index, 'ubcpi-label ubcpi-answer': rc.correct_answer !== $index}" class="ubcpi-no-pointer" for="original-option-input-{{ $index }}">
                                 <img data-ng-src="{{option.image_url}}" id="original-option-image-{{ $index }}" alt="{{option.image_alt}}" data-ng-if="option.image_position == 'above' && option.image_url" />
 
-                                <span class="ubcpi-correct-answer-highlight" data-ng-if="rc.correct_answer === $index" translate>Correct Answer</span>
+                                <span class="ubcpi-correct-answer-highlight" data-ng-if="rc.correct_answer === $index" translate>Correct Answer:</span>
                                 {{option.text}}
 
                                 <img data-ng-src="{{option.image_url}}" id="original-option-image-{{ $index }}" alt="{{option.image_alt}}" data-ng-if="option.image_position == 'below' && option.image_url" />
@@ -215,7 +216,7 @@
                             <div data-ng-if="$index === rc.answer_revised" class="ubcpi-final">
                                 <p class="ubcpi-solution-your-final-answer">
                                     <span translate>Your final explanation:</span>
-                                    <span class="ubcpi-solution-rationales">\"{{rc.rationale_revised}}\"</span>
+                                    <span class="ubcpi-solution-rationales">"{{rc.rationale_revised}}"</span>
                                 </p>
                             </div>
 
