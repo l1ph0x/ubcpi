@@ -608,6 +608,7 @@ msgstr "ჩანს ზემოთ"
 msgid "Appears below"
 msgstr "ჩანს ქვემოთ"
 
+# New additions
 msgid "Revise Answer"
 msgstr "პასუხის გადახედვა"
 
