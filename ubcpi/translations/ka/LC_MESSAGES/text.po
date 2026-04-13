@@ -607,3 +607,21 @@ msgstr "ჩანს ზემოთ"
 #: ubcpi/ubcpi.py:313
 msgid "Appears below"
 msgstr "ჩანს ქვემოთ"
+
+msgid "Revise Answer"
+msgstr "პასუხის გადახედვა"
+
+msgid "Submit Answer"
+msgstr "პასუხის გაგზავნა"
+
+msgid "Show other samples"
+msgstr "სხვა ნიმუშების ჩვენება"
+
+msgid "Chose initially"
+msgstr "თავდაპირველად აირჩია"
+
+msgid "(including you)"
+msgstr "(თქვენს ჩათვლით)"
+
+msgid "Chose after revision"
+msgstr "გადახედვის შემდეგ აირჩია"
